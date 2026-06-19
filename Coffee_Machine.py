@@ -3,22 +3,23 @@ menu = {
         "ingredients": {
             "water": 200,
             "milk": 150,
-            "coffee": 24,
+            "coffee": 25,
         },
         "cost": 150
     },
     "espresso": {
         "ingredients": {
-            "water": 50,
-            "coffee": 18,
+            "water": 250,
+            "milk": 100
+            "coffee": 15,
         },
         "cost": 100
     },
     "cappuccino": {
         "ingredients": {
-            "water": 250,
-            "milk": 100,
-            "coffee": 24,
+            "water": 230,
+            "milk": 120,
+            "coffee": 30,
         },
         "cost": 200
     }
