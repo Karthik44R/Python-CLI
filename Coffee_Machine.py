@@ -40,7 +40,7 @@ def check_resources(order_ingredients):
             return False
     return True
 
-# Money calculation
+# Money Insertion & calculation
 def process_coins():
     print("Please insert coin")
     coins_5 = int(input("how many 5 rupees coin: "))
