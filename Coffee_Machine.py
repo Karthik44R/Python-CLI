@@ -1,3 +1,4 @@
+
 menu = {
     "Espresso": {
         "ingredients": {
@@ -41,7 +42,7 @@ def check_resources(order_ingredients):
 
 # Money Insertion & calculation
 def process_coins():
-    print("Please insert Coins/Notes: ")
+    print("Please insert Coins(₹5/₹10) / Notes(₹10/₹20): ")
     coins_5 = int(input("how many ₹5 coin: "))
     coins_10 = int(input("how many ₹10 coin: "))
     notes_10 = int(input("how many ₹10 notes: "))
@@ -80,6 +81,7 @@ while is_on:
 
     if choice == 'off':
         is_on = False
+        break
     elif choice == 'on':
         is_on = True
     elif choice == 'report':
