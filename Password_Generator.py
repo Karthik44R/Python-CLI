@@ -47,3 +47,4 @@ def generate_password():
 
 password = generate_password()
 print(f"PassWord : {password}")
+
