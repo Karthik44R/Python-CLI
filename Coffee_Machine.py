@@ -1,12 +1,4 @@
 menu = {
-    "latte": {
-        "ingredients": {
-            "water": 200,
-            "milk": 150,
-            "coffee": 25,
-        },
-        "cost": 150
-    },
     "espresso": {
         "ingredients": {
             "water": 250,
@@ -14,6 +6,14 @@ menu = {
             "coffee": 15,
         },
         "cost": 100
+    },
+    "latte": {
+        "ingredients": {
+            "water": 200,
+            "milk": 150,
+            "coffee": 25,
+        },
+        "cost": 150
     },
     "cappuccino": {
         "ingredients": {
