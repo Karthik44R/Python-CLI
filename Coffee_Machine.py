@@ -42,10 +42,10 @@ def check_resources(order_ingredients):
 
 # Money Insertion & calculation
 def process_coins():
-    print("Please insert coin")
-    coins_5 = int(input("how many 5 rupees coin: "))
-    coins_10 = int(input("how many 10 rupees coin: "))
-    coins_20 = int(input("how many 20 rupees coin: "))
+    print("Please insert Coins: ")
+    coins_5 = int(input("how many ₹5 coin: "))
+    coins_10 = int(input("how many ₹10 coin: "))
+    coins_20 = int(input("how many ₹20 coin: "))
     total = coins_5 * 5 + coins_10 * 10 + coins_20 * 20
     return total
 
@@ -55,10 +55,10 @@ def is_payment_successful(money_received, coffee_cost):
     if money_received >= coffee_cost:
         profit += coffee_cost
         change = money_received - coffee_cost
-        print(f"here is your rupees {change} in change")
+        print(f"Here is your ₹{change} in change")
         return True
     else:
-        print("sorry that's not enough money and money your money would be refunded")
+        print("Sorry! that's not enough Money and your money will be Refunded")
         return False
 
 # Start Coffee
