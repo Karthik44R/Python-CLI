@@ -89,6 +89,7 @@ while is_on:
         print(f"milk={resources['milk']}ml")
         print(f"coffee={resources['coffee']}g")
         print(f"money=₹{profit}")
+        
     if choice in menu:
         coffee_type = menu[choice]
         if check_resources(coffee_type['ingredients']):
