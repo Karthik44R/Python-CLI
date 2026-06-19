@@ -25,7 +25,7 @@ def view_tasks(tasks):
         print("Your To-Do List: ")
         for idx, task in enumerate(task_list):
             status = "[Completed]" if task["complete"] else "[Pending]"
-            print(f"{idx + 1}. {task['description']} | {status}")
+            print(f"{idx + 1}. {task['description']} - {status}")
 
 def create_task(tasks):
     description = input("Enter the task description: ").strip()
