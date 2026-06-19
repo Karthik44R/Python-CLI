@@ -9,16 +9,16 @@ menu = {
     },
     "latte": {
         "ingredients": {
-            "water": 200,
-            "milk": 150,
+            "water": 230,
+            "milk": 120,
             "coffee": 25,
         },
         "cost": 150
     },
     "cappuccino": {
         "ingredients": {
-            "water": 230,
-            "milk": 120,
+            "water": 200,
+            "milk": 150,
             "coffee": 30,
         },
         "cost": 200
