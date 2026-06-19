@@ -27,9 +27,9 @@ menu = {
 
 profit = 0
 resources = {
-    "water": 500,
-    "milk": 200,
-    "coffee": 100,
+    "water": 5000,
+    "milk": 2000,
+    "coffee": 1000,
 }
 
 # To check ingredients available (or) not
