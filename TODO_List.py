@@ -12,7 +12,7 @@ def load_tasks():
 def save_tasks(tasks):
     try:
         with open(file_name, "w") as file:
-            json.dump(tasks, file)
+            json.dump(tasks, file,indent=4)
     except:
       print("Failed to save.")
 
